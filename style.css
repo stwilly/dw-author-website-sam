@@ -1,18 +1,20 @@
 /* make comments within this syntax */
 
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+  font-family: "Martian Mono", monospace;
+  font-size: small;
+  font-weight: 200;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
-  background:linear-gradient(to right, #4A412A, #685C3B, #685C3B, #4A412A);
+  background-color:#2E281A;
   color: #ffeeb6;
 }
 .container {
   max-width: 800px;
   margin: auto;
   padding: 40px;
-  background-color:#685C3B;
+  background-color:#4a412a47;
 }
 header {
   text-align: center;
@@ -22,11 +24,17 @@ header img {
   width: 250px;
 }
 h1 {
+  font-family: "Xanh Mono", monospace;
+  font-size: xx-large;
+  font-weight: 1000;
   margin: 10px 0 5px;
   text-align: center;
   margin-bottom: 30px;
 }
 h2 {
+  font-family: "Syne Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
   color: #ffeeb6;
   border-bottom: 1px solid #2E281A;
   padding-bottom: 5px;
@@ -96,7 +104,7 @@ a:hover {
 /* styling for header.html */
 .navbar {
   width: 100%;
-  background-color: #2E281A;
+  background-color: #4A412A;
   color: white;
   padding: 10px 10px;
 }
@@ -154,7 +162,7 @@ a:hover {
       margin-top: 1rem;
     }
     .nav-buttons button {
-      background-color: #2E281A;
+      background-color: #4A412A;
       color: white;
       border: none;
       padding: 0.75rem 1.5rem;
@@ -162,5 +170,5 @@ a:hover {
       cursor: pointer;
     }
     .nav-buttons button:hover {
-      background-color: #2E281A;
+      background-color: #4A412A;
     }
