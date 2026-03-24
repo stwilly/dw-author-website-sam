@@ -5,22 +5,21 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
-  color: #333333;
+  background:linear-gradient(to right, #4A412A, #685C3B, #685C3B, #4A412A);
+  color: #ffeeb6;
 }
 .container {
   max-width: 800px;
   margin: auto;
-  padding: 20px;
-  background-color: #ffffff;
+  padding: 40px;
+  background-color:#685C3B;
 }
 header {
   text-align: center;
   padding-bottom: 20px;
 }
 header img {
-  width: 150px;
-  border-radius: 50%;
+  width: 250px;
 }
 h1 {
   margin: 10px 0 5px;
@@ -28,8 +27,8 @@ h1 {
   margin-bottom: 30px;
 }
 h2 {
-  color: #444444;
-  border-bottom: 1px solid #cccccc;
+  color: #ffeeb6;
+  border-bottom: 1px solid #2E281A;
   padding-bottom: 5px;
   margin-top: 30px;
 }
@@ -37,7 +36,7 @@ ul {
   padding-left: 20px;
 }
 a {
-  color: #0077cc;
+  color: #ffd900;
   text-decoration: none;
 }
 a:hover {
@@ -84,7 +83,7 @@ a:hover {
 }
 .article-title a {
   text-decoration: none;
-  color: #0077cc;
+  color: #ffd000;
 }
 .article-title a:hover {
   text-decoration: underline;
@@ -97,7 +96,7 @@ a:hover {
 /* styling for header.html */
 .navbar {
   width: 100%;
-  background-color: #333333;
+  background-color: #2E281A;
   color: white;
   padding: 10px 10px;
 }
@@ -155,7 +154,7 @@ a:hover {
       margin-top: 1rem;
     }
     .nav-buttons button {
-      background-color: #333333;
+      background-color: #2E281A;
       color: white;
       border: none;
       padding: 0.75rem 1.5rem;
@@ -163,5 +162,5 @@ a:hover {
       cursor: pointer;
     }
     .nav-buttons button:hover {
-      background-color: #555555;
+      background-color: #2E281A;
     }
