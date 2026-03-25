@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   background-color:#2E281A;
-  color: #ffeeb6;
+  color: #fffae8;
 }
 .container {
   max-width: 800px;
@@ -25,21 +25,36 @@ header img {
 }
 h1 {
   font-family: "Xanh Mono", monospace;
-  color: #ff7ae0;
-  font-size: xx-large;
-  font-weight: 1400;
+  color: #d036ff;
+  font-size: 3.5em;
+  font-weight: 100;
   margin: 10px 0 5px;
   text-align: center;
-  margin-bottom: 30px;
+  text-decoration: underline;
+  text-underline-offset: 11.5px;
+  text-decoration-thickness: 1px;
+  background-color:#2E281A;
+  margin-bottom: 0px;
 }
 h2 {
   font-family: "Syne Mono", monospace;
   font-weight: 600;
   font-style: normal;
-  color: #ff7ae0;
+  color: #d036ff;
+  background-color:#2E281A;
   border-bottom: 1px solid #2E281A;
   padding-bottom: 5px;
   margin-top: 30px;
+}
+h3 {
+  font-family: "Martian Mono", monospace;
+  font-size: 1.25em;
+  font-weight: 350;
+  line-height: 0;
+  margin: 0;
+  padding-bottom:30px;
+  color: #d036ff;
+  background-color:#2E281A;
 }
 ul {
   padding-left: 20px;
